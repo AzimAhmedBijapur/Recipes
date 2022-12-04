@@ -1,0 +1,99 @@
+nav{
+    display: inline block;
+    background-color: #020414;
+    padding: 5px;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+nav p{
+    color: white;
+    font-size: 2rem;
+    margin: 1em;
+}
+
+header h1{
+    text-align: center;
+    font-weight: lighter;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 1.5%;
+    font-size: 4rem;  
+}
+
+section div{
+    margin-top: -15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#img-main{
+    display: block;
+    height: auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2.5%;
+}
+div h3{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 1.5%;
+}
+.list{
+    list-style-type:square;
+    display: inline-block;
+    text-align: left;
+    padding: 2rem;
+    /* border-radius: 5%;
+    box-shadow: 1px 1px 5px 5px grey; */
+}
+
+li a{
+    text-decoration: none;
+    color: #5a1363;
+    /* font-style: italic; */
+    /* text-shadow: 1px 1px yellow; */
+}
+
+a:hover{
+    background-color: lightgray;
+    color: purple;
+    text-decoration: underline;
+}
+
+footer{
+    display: block;
+    background-color: #020414;
+    padding: 25px;
+    /* margin-top: 4rem; */
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+}
+footer .foot{
+    font-size: 1.5rem;
+    color: white;
+}
+
+footer .foot.copyright{
+    /* padding-left: 1%; */
+    margin-left: -5px;
+}
+
+footer .foot.git{
+    float: right;
+    border-radius: 2%;
+    /* padding:5px; */
+    margin-bottom: 2px;
+}
+
+footer .foot.git:hover{
+    background-color: gray;
+}

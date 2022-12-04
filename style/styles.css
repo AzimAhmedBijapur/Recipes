@@ -1,0 +1,137 @@
+nav{
+    display: inline block;
+    background-color: #020414;
+    padding: 5px;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+nav p{
+    color: white;
+    font-size: 2rem;
+    margin: 1em;
+}
+
+header{
+    text-align: center;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:2.5% ;
+    /* opacity: 95%; */
+    background-color: white;
+}
+header h1{
+    font-size: 3.5rem;
+    color: black;
+    padding:2%;  
+}
+section img{
+    display: block;
+    width: 51.5%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2.5%;
+}
+.img-desc{
+    justify-content: center;
+    
+}
+h3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:2.5% ;
+    /* opacity: 95%; */
+    width: 10%;
+    padding: 1%;
+    background-color: white;
+    color: black;
+}
+.description{
+    background-color: white;
+    /* opacity: 95%; */
+    text-align: justify;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding:15px ;
+    width: 50%;
+    border-radius: 2.5%;
+}
+.ingredients,.steps,.marinade,.gravy{
+    text-align: center;
+    font-size: 2rem;
+}
+
+ul,ol{
+    list-style-position: inside;
+    border-radius: 2.5%;
+    display: inline-block;
+    text-align: left;
+    background-color: lightgray;
+    text-align: justify;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding:15px ;
+    width: 35%;
+    background-color: white;
+    /* opacity: 90%; */
+}
+ol{
+    width: 50%;
+    word-spacing: 2%;
+    line-height :1.5em; 
+}
+.ref{
+    font-size: 1.5rem;
+    color: black;
+    padding: 2px;
+    border-radius: 2.5%;
+    background-color: white;
+    /* opacity: 90%; */
+}
+small a{
+    text-decoration: none;
+    color: black;
+}
+small a:hover{
+
+    color: purple;
+}
+footer{
+    display: block;
+    background-color: #020414;
+    padding: 25px;
+    /* margin-top: 4rem; */
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+}
+footer .foot{
+    font-size: 1.5rem;
+    color: white;
+}
+
+footer .foot.copyright{
+    /* padding-left: 1%; */
+    margin-left: -5px;
+}
+
+footer .foot.git{
+    float: right;
+    border-radius: 2%;
+    /* padding:5px; */
+    margin-bottom: 2px;
+}
+
+footer .foot.git:hover{
+    background-color: gray;
+}
