@@ -165,6 +165,7 @@ footer .foot.git:hover{
     }
     footer .foot{
         font-size: 20px;
+        align-items: center;
     }
 }
 

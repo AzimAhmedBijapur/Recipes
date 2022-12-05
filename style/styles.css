@@ -149,6 +149,15 @@ footer .foot.git:hover{
 /* Media query */
 @media only screen and (max-width:600px)
 {
+    nav{
+        justify-content: center; 
+     }
+     nav>div{
+         flex: 0 0 80%;
+     }
+     nav>div>p{
+         font-size: 1.5rem;
+     }
     ul,ol{
         font-size:15px;
         flex-basis:80%;
@@ -173,6 +182,15 @@ footer .foot.git:hover{
 }
 @media only screen and (max-width:800px)
 {
+    nav{
+        justify-content: center; 
+     }
+     nav>div{
+         flex: 0 0 50%;
+     }
+     nav>div>p{
+         font-size: 2rem;
+     }
     ul,ol{
         font-size:20px;
         flex-basis:80% ;
