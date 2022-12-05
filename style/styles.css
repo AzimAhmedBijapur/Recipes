@@ -1,5 +1,5 @@
 nav{
-    display: inline block;
+    display: flex;
     background-color: #020414;
     padding: 5px;
     margin-top: -15px;
@@ -8,18 +8,21 @@ nav{
 }
 
 nav p{
+    flex-basis:20% ;
+    flex-grow: 1;
+    flex-shrink: 1;
     color: white;
     font-size: 2rem;
     margin: 1em;
 }
-
 header{
     text-align: center;
-    display: block;
+    display: inline;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     border-radius:2.5% ;
+    padding: 5px;
     /* opacity: 95%; */
     background-color: white;
 }
@@ -29,7 +32,7 @@ header h1{
     padding:2%;  
 }
 section img{
-    display: block;
+    display: flex;
     width: 51.5%;
     height: auto;
     margin-left: auto;
@@ -38,52 +41,58 @@ section img{
 }
 .img-desc{
     justify-content: center;
-    
+    padding: 5px;
+}
+.header_three{
+    display: flex;
+    justify-content: center;
 }
 h3{
-    display: block;
+    flex-basis:20%;
     margin-left: auto;
     margin-right: auto;
     border-radius:2.5% ;
     /* opacity: 95%; */
-    width: 10%;
-    padding: 1%;
+    padding: 2px;
     background-color: white;
     color: black;
 }
+section b{
+    padding: 4px;
+}
 .description{
     background-color: white;
-    /* opacity: 95%; */
     text-align: justify;
     font-size: 2rem;
     margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding:15px ;
-    width: 50%;
+    display: flex;
+    padding:5px ;
+    justify-content: center;
     border-radius: 2.5%;
 }
+.description div{
+    flex-basis:52%;
+}
 .ingredients,.steps,.marinade,.gravy{
+
     text-align: center;
     font-size: 2rem;
+    padding: 10px;
 }
-
+.marinade,.gravy{
+    display: flex;
+    justify-content: center;
+}
 ul,ol{
     list-style-position: inside;
     border-radius: 2.5%;
     display: inline-block;
+    flex:0 0 50% ;
     text-align: left;
     background-color: lightgray;
-    text-align: justify;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding:15px ;
-    width: 35%;
+    margin-top: 5px;
+    padding:5px ;
     background-color: white;
-    /* opacity: 90%; */
 }
 ol{
     width: 50%;
@@ -93,10 +102,9 @@ ol{
 .ref{
     font-size: 1.5rem;
     color: black;
-    padding: 2px;
+    padding: 3px;
     border-radius: 2.5%;
     background-color: white;
-    /* opacity: 90%; */
 }
 small a{
     text-decoration: none;
@@ -107,10 +115,10 @@ small a:hover{
     color: purple;
 }
 footer{
-    display: block;
+    display: flex;
     background-color: #020414;
     padding: 25px;
-    /* margin-top: 4rem; */
+    margin-top: 1rem;
     margin-left: -15px;
     margin-right: -15px;
     margin-bottom: -15px;
@@ -121,11 +129,13 @@ footer .foot{
 }
 
 footer .foot.copyright{
-    /* padding-left: 1%; */
     margin-left: -5px;
+    flex: 1;
 }
 
 footer .foot.git{
+    display: flex;
+    flex: 1;
     float: right;
     border-radius: 2%;
     /* padding:5px; */
@@ -134,4 +144,54 @@ footer .foot.git{
 
 footer .foot.git:hover{
     background-color: gray;
+}
+
+/* Media query */
+@media only screen and (max-width:600px)
+{
+    ul,ol{
+        font-size:15px;
+        flex-basis:80%;
+    }
+    .description div{
+        font-size: 15px;
+        flex-basis:80% ;
+    }
+    section img{
+        height: auto;
+        width: 80%;
+    }
+    header h1{
+        font-size:35px;
+    }
+    .ref{
+        font-size: 15px;
+    }
+    footer .foot{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:800px)
+{
+    ul,ol{
+        font-size:20px;
+        flex-basis:80% ;
+    }
+    .description div{
+        font-size: 20px;
+        flex-basis:80% ;
+    }
+    section img{
+        height: auto;
+        width: 80%;
+    }
+    .ref{
+        font-size: 20px;
+    }
+    header h1{
+        font-size:40px;
+    }
+    footer .foot{
+        font-size: 20px;
+    }
 }
