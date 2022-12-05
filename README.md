@@ -2,7 +2,7 @@
 
 This is a recipes website mainly focusing on indian cuisine
   
-Image credits:  
+# Image credits:  
 
 1.Mario Raj (https://unsplash.com/@chefmariii)  
 
@@ -13,6 +13,6 @@ Image credits:
 4.Kabeer Cheema (https://unsplash.com/@kabircheema)  
 
 
-Content source:  
+# Content source:  
 
 Ndtv : https://food.ndtv.com/
